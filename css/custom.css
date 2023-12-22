@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'Magic Sound';
+    src: url('../assets/Magic\ Sound.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+.bluey-header {
+    font-family: 'Magic Sound';
+    color: #88cafc;
+    line-height: 12rem;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.bluey-font {
+    font-family: 'Magic Sound';
+    font-size: 10px;
+    color: #88cafc;
+    padding: 0 4px;
+    line-height: 16px;
+
+}
+
+.bluey-img {
+
+}
+
+.bluey-quote {
+
+}
+
+.bluey-section {
+    display: block;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 4px solid #404066;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+        flex-wrap: wrap;
+        align-content: center;
+        flex-direction: column;
+    }
+}
+.navbar-brand {
+    display: none;
+}
+
+/* .test {
+    display: initial;
+} */
+
+body > main > section {
+    background-color: #2b2c41;
+}
+.navbar {
+    background-color: #88cafc !important;
+}
+
+.nav-link {
+    color: #000;
+}
